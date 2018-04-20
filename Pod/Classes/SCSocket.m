@@ -65,8 +65,8 @@
     
     [wS close];
     
-    wS = [[SRWebSocket alloc] initWithURLRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"ws://%@/?transport=websocket",url]]]];
-    
+    wS = [[SRWebSocket alloc] initWithURLRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"ws://%@/socketcluster/",url]]]];
+
     wS.delegate = self;
     
     
