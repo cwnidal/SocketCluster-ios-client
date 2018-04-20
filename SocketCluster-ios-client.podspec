@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Nidal" => "nidal_mi@ymail.com" }
-  s.source           = { :git => "https://github.com/cwnidal/SocketCluster-ios-client", :tag => s.version }
+  s.source           = { :git => "https://github.com/cwnidal/SocketCluster-ios-client", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
