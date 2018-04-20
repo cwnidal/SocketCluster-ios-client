@@ -13,11 +13,11 @@ Pod::Spec.new do |s|
 
   s.description      = "Native iOS client for SocketCluster http://socketcluster.io/."
 
-  s.homepage         = "https://github.com/abpopov/SocketCluster-ios-client"
+  s.homepage         = "https://github.com/cwnidal/SocketCluster-ios-client"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Anatoliy" => "popov.anatoliy@gmail.com" }
-  s.source           = { :git => "https://github.com/abpopov/SocketCluster-ios-client.git", :tag => s.version.to_s }
+  s.author           = { "Nidal" => "nidal_mi@ymail.com" }
+  s.source           = { :git => "https://github.com/cwnidal/SocketCluster-ios-client", :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
